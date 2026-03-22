@@ -1,0 +1,34 @@
+{
+  "id": "in.rdata.indiastreams.moviesonly.minimal",
+  "version": "1.0.1",
+  "name": "IndiaStreams (Minimal Movies)",
+  "logo": "https://indiastreams.rdata.in/smallicon.png",
+  "description": "Minimal movies-only version (No Series, No Recommendations, No Hotstar/SonyLiv/Zee5).",
+  "catalogs": [
+    {
+      "type": "movie",
+      "id": "trendingmovies",
+      "name": "Trending movies in India"
+    },
+    {
+      "type": "movie",
+      "id": "popmov",
+      "name": "Popular movies in India"
+    },
+    {
+      "type": "movie",
+      "id": "nfxprm",
+      "name": "Popular movies on Netflix & Prime"
+    }
+  ],
+  "resources": [
+    "catalog"
+  ],
+  "types": [
+    "movie"
+  ],
+  "behaviorHints": {
+    "configurable": true,
+    "configurationRequired": false
+  }
+}
